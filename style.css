@@ -1,0 +1,64 @@
+/* تصميم عام للموقع */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #0056b3;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+}
+
+/* تصميم المنتجات في صفحة المتجر */
+.product {
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: white;
+}
+
+.product img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
